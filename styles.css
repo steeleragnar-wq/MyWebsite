@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #dddddd;
+    font-family: Lato, sans-serif;
+}
+
+header { 
+  text-align: center;
+  font-weight: bold;
+  font-size: 4rem;
+  font-family: Lato, sans-serif;
+  padding-top: 20px; 
+}
+
+.Logo {
+  position: absolute;
+  top: 17px;
+  left: 40px;
+  width: 90px; 
+  transition: all 0.2s;
+}
+
+.Logo:hover {
+    width: 150px;
+}
+
+/* 3d model */
+.sketchfab-embed-wrapper {
+    text-align: center;
+}
+
+.model_credit {
+    display: none;
+}
+
+.sketchfab-embed-wrapper:hover {
+    .model_credit {
+        display: block;
+    }
+}
+
+
+
+.smheader {
+    padding-top: 1.5em;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.mt {
+    display: flex;
+    justify-content: center;
+}
+
+.main_txt {
+    padding-top: 2em;
+    font-size: 1.5em;
+    font-family: Lato, sans-serif;
+    text-indent: 2em;
+    padding-inline: 12em;
+}
+
+.raw_info_li {
+    padding-top: 1.5em;
+    text-indent: -7em;
+    list-style: none;
+    font-size: 1.2em;
+}
+
+.use_tb {
+    padding-top: 2em;
+}
+
+.credits {
+    text-align: center;
+    padding-top: 3em;
+}
+
+@media screen and (max-width: 1400px) {
+    .main_txt {
+        padding-inline: 2em;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .main_txt {
+        padding-inline: 2em;
+    }
+}
